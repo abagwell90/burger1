@@ -1,0 +1,75 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+.container-fluid {
+  background-color: #ffa500;
+  padding:25px;
+
+}
+#trythese{
+  text-align: center;
+}
+#enjoy{
+  text-align: center;
+}
+
+div.jumbotron {
+  padding: 15px;
+  margin: 25px;
+}
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+#hidden {
+display:none;
+}
+
+dl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.wrapper {
+  overflow: hidden;
+}
+#bottom {
+  margin-left:30px;
+  margin-top:30px;
+}
+.sliding-background {
+  background: url("../img/burger3.jpg") repeat-x;
+  height: 300px;
+  width: 4076px;
+  animation: slide 90s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+#name {
+   
+    text-align: center;
+  
+}
